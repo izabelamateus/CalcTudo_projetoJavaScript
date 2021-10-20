@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcTudo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/calc.ico" />
+</head>
+<body class="acess">
+    <header>
+        <div class="topo" id="topo">
+            <img class="logo" src="img/logo1.jpeg" alt="logo">
+        </div>
+        <nav id="nav">
+            <ul>
+                <li ><a href="#">Home</a></li>
+                <li ><a  href="conversoes.html">Conversões</a></li>
+                <li ><a href="calculadora.html">Calculadora</a></li> 
+                
+            </ul>
+            <ul class="acs">
+                <div class="acessibilidade">
+                    <li><a onclick="diminuir()" ><img src="img/reduzir-o-zoom.png" alt="diminuir" class="imgAcs"></a></li>
+                    <li><a onclick="aumentar()" ><img src="img/mais-zoom.png" alt="aumentar" class="imgAcs"></a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="bloco1" id="bloco1">
+            
+            <h1>Calc Tudo</h1>
+            <h3>Bem-vindo ao nosso site</h3>
+            <button class="darkMode" onclick="dark()" id="dark">DarkModel</button>
+        </section>
+        <section class="blocos23" id="blocos23">
+            <div class="blocos2" id="blocos2">
+                <img class="imgb" src="img/conversor.jpeg" alt="conversoes">
+                <div class="texto1">
+                    <h2><a href="conversoes.html">Conversões</a></h2>
+                    <p>Realize vários tipos de conversões em um só lugar</p>
+                </div>
+            </div>    
+        
+            <div  class="blocos3" id="blocos3">
+                <div class="texto2">
+                    <h2><a href="calculadora.html">Calculadora</a></h2>
+                    <p>Realize vários tipos de calculos em um só lugar</p>
+                </div>
+                <img class= "imgb" style="margin-right: 20%;"src="img/calc.jpeg" alt="calculadora">
+                </div>
+        </section>
+
+    </main>
+    <footer id="footer">
+        <div class="fim">
+            <h3>CalcTudo</h3>
+        </div>
+        <div class="redes">
+            <a href="https://www.instagram.com/soulcodeacademy/" target="blank"><img class="icon" src="img/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/SoulCodeAcademy" target="blank"><img class="icon" src="img/facebook.png" alt="Facebook"></a>
+            <a href="https://br.linkedin.com/company/soulcodeacademy" target="blank"><img class="icon" src="img/linkedin.png" alt="Linkedin"></a>
+        </div>
+    </footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+      <script src="script.js"></script>
+</body>
+</html>

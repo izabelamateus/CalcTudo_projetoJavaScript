@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/calc.ico" />
+</head>
+<body  class="corpo">
+    <header>
+        <div class="topo">
+            <img class="logo" src="img/logo1.jpeg" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="conversoes.html">Conversões</a></li>
+                <li><a href="calculadora.html">Calculadora</a></li> 
+                
+            </ul>
+            <ul class="acs">
+                <div class="acessibilidade">
+                    <li><a onclick="diminuir()" type="button"><img src="img/reduzir-o-zoom.png" alt="diminuir" class="imgAcs"></a></li>
+                    <li><a onclick="aumentar()" ><img src="img/mais-zoom.png" alt="aumentar" class="imgAcs"></a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="titulo">
+            <h1>Calc Tudo</h1>
+            <h3>Calculadora</h3>
+            
+        </section>
+        <section class="calc" >
+            <div inpsValor>
+                <input type="text" placeholder="Valor A" class="inpValor" id="valorA">
+                <input style="margin-left: 15px;" type="text" placeholder="Valor B" class="inpValor" id="valorB">
+            </div> 
+            <div class="fileira1">
+                <button class="tecla" onclick="soma()">+</button>
+                <button class="tecla" onclick="subtrai()">-</button>
+                <button class="tecla" onclick="multiplica()">*</button>
+                <button class="tecla" onclick="divide()">/</button>
+            </div>
+            <div>
+                <button class="tecla" onclick="modulo()">%</button>
+                <button class="tecla" onclick="elevaA()">a<sup>2</sup></button>
+                <button class="tecla" onclick="elevaB()">b<sup>2</sup></button>
+                <button class="tecla" onclick="elevaAB()">a<sup>b</sup></button>
+            </div>
+            <div class="parte">
+                <label for="">Resultado</label>
+                <p id="resultado"></p>
+            </div>
+               
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="fim">
+            <h3>CalcTudo</h3>
+        </div>
+        <div class="redes">
+            <a href="https://www.instagram.com/soulcodeacademy/" target="blank"><img class="icon" src="img/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/SoulCodeAcademy" target="blank"><img class="icon" src="img/facebook.png" alt="Facebook"></a>
+            <a href="https://br.linkedin.com/company/soulcodeacademy" target="blank"><img class="icon" src="img/linkedin.png" alt="Linkedin"></a>
+        </div>
+    </footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <script src="script.js"></script>
+</body>
+</html>

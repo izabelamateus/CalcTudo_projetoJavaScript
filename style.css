@@ -1,0 +1,321 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  
+  li {
+    display: flex;  
+    font-family: 'Ubuntu', sans-serif;
+    margin: 2px 5px;
+    width: 190px;
+    padding: 10px;
+    text-align: left;
+    
+  }
+
+  .acs li{
+    display: flex;  
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 2px 0;
+    width: 190px;
+    padding: 10px;
+    align-items: left;
+  }
+
+ .btnAcs{
+      width: 20px;
+      height: 20px;
+  } 
+
+.imgAcs{
+    width: 25px;
+    height: 25px;
+}
+
+  a{
+      text-decoration: none;
+      color: #2E3339;
+      font-size: 1em;
+  }
+
+  nav {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    border: black solid 3px;
+    background-color: #F6F6F6;
+    
+  }
+  body{
+      font-size: 20px;
+  }
+  .topo{
+      height: 80px;
+      background-color: #6CBA0E;
+  }
+   .logo{
+      float: right;
+      width: 290px;
+      border-radius: 10px;
+      height: 65px;
+      margin-top: 7px;
+      margin-right: 7px;
+  } 
+.acessibilidade{
+  float: right;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.bloco1{
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    clear: both;
+   background-color: cornsilk;
+   font-family: 'Ubuntu', sans-serif;
+   
+   font-size: 3em;
+}
+
+.darkMode{
+    padding: 1%;
+    margin: 3%;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+    border: black solid;
+    background-color: black;
+    color: white;
+    font-size: 0.3em;
+}
+
+.blocos23{
+    display: flex;
+    flex-direction: column;
+    
+}
+.blocos2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: black solid 3px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #FF9201;
+}
+
+.blocos3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 300px;
+    border: black solid 3px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #D3D3D1;
+}
+
+.imgb{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: black solid 10px; 
+    margin-left: 20%;
+}
+
+.texto1{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 5%;
+    font-size: 1em;
+    margin-left: 20%;
+}
+
+.texto2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 70%;
+    padding: 5%;
+    text-align: right;
+    font-size: 1em;
+}
+
+
+footer{
+    
+    height: 50px;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    background-color: #AAFC6A;
+}
+
+.fim{
+    width: 46%;
+}
+.redes{
+   display: flex;
+   justify-content: space-between;
+}
+.icon{
+    margin:5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+
+.titulo{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: 'Ubuntu', sans-serif;
+    background-color: cornsilk;
+}
+
+.conversao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: cornsilk;
+}
+
+fieldset{
+    width: 70%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%; 
+    margin: 2%;
+    font-family: 'Ubuntu', sans-serif;
+    border: black solid 3px;
+   background-color: white;
+}
+
+.parte1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1%;
+}
+
+.parte2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+}
+
+.lbl{
+    margin-right: 2%;
+}
+
+.inp{
+    height: 20px;
+    width: 80%;
+}
+
+.btn{
+    margin-left: 0.5%;
+    padding: 0.5%;
+    font-size: 0.7em;
+}
+
+select{
+    margin-left: 0.5%;
+    font-size: 0.7em;
+}
+
+.inpResultado{
+    padding-right: 200px;
+    height: 20px;
+}
+
+/* calculadora */
+.calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 5%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: cornsilk;
+}
+
+.corpo{
+    background-color: cornsilk;
+}
+.inpCalc{
+    width: 30.5%;
+    height: 40px;
+    
+}
+
+.tecla{
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    border: none;
+    background-color: #D3D3D1;
+    font-size: 0.7em;
+}
+
+.fileira1{
+    margin-top: 0.1%;
+    margin-bottom: 0.1%;
+}
+
+.inpsValores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.inpValor{
+    width: 45%;
+    height: 40px;
+    border: none;
+    background-color: cornsilk;
+}
+
+.resul{
+    margin-top: 2.5%;
+}
